@@ -1,0 +1,22 @@
+{
+  "active_plan": "C:\\Users\\Durvesh Narkhede\\.config\\opencode\\.sisyphus\\plans\\google-slides-mcp.md",
+  "started_at": "2026-04-26T11:58:12.085Z",
+  "session_ids": [
+    "ses_236b1cc5affeX1N0w39gPRNlEu"
+  ],
+  "session_origins": {
+    "ses_236b1cc5affeX1N0w39gPRNlEu": "direct"
+  },
+  "plan_name": "google-slides-mcp",
+  "agent": "atlas",
+  "task_sessions": {
+    "final-wave:f1": {
+      "task_key": "final-wave:f1",
+      "task_label": "F1",
+      "task_title": "**Plan Compliance Audit** — `oracle`",
+      "session_id": "ses_2359af1c9ffecQlHSCXi9ayQ5D",
+      "agent": "oracle",
+      "updated_at": "2026-04-26T15:25:47.550Z"
+    }
+  }
+}

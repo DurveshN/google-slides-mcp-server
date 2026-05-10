@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Google credentials (NEVER COMMIT THESE!)
+credentials.json
+token.json
+
+# Sisyphus working directories
+# These contain personal working files and test outputs
+# Keep .sisyphus/docs/ for API documentation (useful for users)
+.sisyphus/drafts/
+.sisyphus/evidence/
+.sisyphus/notepads/
+.sisyphus/run-continuation/
+.sisyphus/slide-plans/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Debug
+debug.log
+.debug/

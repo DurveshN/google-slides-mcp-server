@@ -1,0 +1,53 @@
+{
+  "name": "google-slides-mcp",
+  "version": "1.0.0",
+  "description": "A powerful Model Context Protocol (MCP) server for programmatic Google Slides creation and manipulation. Build complete slide decks, add rich content, and automate presentations through AI assistants.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-slides",
+    "googleapis",
+    "slides-api",
+    "presentation",
+    "automation",
+    "ai",
+    "claude",
+    "anthropic",
+    "slides-automation",
+    "presentation-generator",
+    "google-workspace",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/google-slides-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/google-slides-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/google-slides-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "google-auth-library": "^9.14.0",
+    "googleapis": "^130.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.0"
+  }
+}
