@@ -2,42 +2,30 @@
 
 # 🎨 Google Slides MCP Server
 
-### **AI-Powered Presentation Automation**
+### AI-Powered Presentation Automation
 
-*Programmatically create, edit, and manage Google Slides presentations through the Model Context Protocol*
-
-<br>
-
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-5B47ED?style=for-the-badge)](https://modelcontextprotocol.io/)
-[![Google Slides API](https://img.shields.io/badge/Google_Slides-API-FBBC04?style=for-the-badge&logo=google-slides&logoColor=white)](https://developers.google.com/slides)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-5B47ED?style=for-the-badge)](https://modelcontextprotocol.io/)
+[![Google Slides](https://img.shields.io/badge/Google_Slides-API-FBBC04?style=for-the-badge&logo=google-slides&logoColor=white)](https://developers.google.com/slides)
 
-<br>
+*Programmatically create, edit, and manage Google Slides presentations through the Model Context Protocol. Build complete slide decks with AI assistants using natural language commands.*
 
-```ascii
-┌─────────────────────────────────────────────────────────────────┐
-│  🤖 AI Assistant  →  📡 MCP Protocol  →  🎨 Google Slides API  │
-│                                                                  │
-│  Natural Language  →  Structured Tools  →  Beautiful Slides    │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-[✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [🚀 Quick Start](#-quick-start) • [📚 Documentation](#-documentation) • [💡 Examples](#-examples)
+[Features](#-features) • [Architecture](#️-architecture) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Examples](#-examples)
 
 </div>
-
-<br>
 
 ---
 
-<div align="center">
-
 ## 🌟 Overview
 
-The **Google Slides MCP Server** bridges AI assistants with Google Slides, enabling automated presentation generation through natural language. Transform ideas into professional slide decks instantly.
+<div align="center">
+
+**Transform ideas into professional slide decks instantly with AI-powered automation**
 
 </div>
+
+The **Google Slides MCP Server** bridges AI assistants with Google Slides, enabling automated presentation generation through natural language. Build complete presentations, add rich content, and manage slides—all through simple conversational commands.
 
 <table>
 <tr>
@@ -152,9 +140,11 @@ graph TB
 
 ---
 
+## ✨ Features
+
 <div align="center">
 
-## ✨ Features
+### **📊 24+ Tools Across 7 Categories**
 
 </div>
 
@@ -162,9 +152,7 @@ graph TB
 <tr>
 <td width="33%" align="center">
 
-### 📑 **Presentations**
-
-<br>
+### 📑 Presentations
 
 ✅ Create & Copy  
 ✅ Delete & List  
@@ -174,9 +162,7 @@ graph TB
 </td>
 <td width="33%" align="center">
 
-### 🎯 **Slides**
-
-<br>
+### 🎯 Slides
 
 ✅ Add & Delete  
 ✅ Reorder Slides  
@@ -186,9 +172,7 @@ graph TB
 </td>
 <td width="33%" align="center">
 
-### 🎨 **Content**
-
-<br>
+### 🎨 Content
 
 ✅ Text Boxes  
 ✅ Shapes & Images  
@@ -200,9 +184,7 @@ graph TB
 <tr>
 <td width="33%" align="center">
 
-### ✏️ **Text Editing**
-
-<br>
+### ✏️ Text Editing
 
 ✅ Insert & Delete  
 ✅ Find & Replace  
@@ -212,9 +194,7 @@ graph TB
 </td>
 <td width="33%" align="center">
 
-### 🔧 **Advanced**
-
-<br>
+### 🔧 Advanced
 
 ✅ Batch Operations  
 ✅ Element Transforms  
@@ -224,9 +204,7 @@ graph TB
 </td>
 <td width="33%" align="center">
 
-### 🛡️ **Reliability**
-
-<br>
+### 🛡️ Reliability
 
 ✅ Type Safety (TS)  
 ✅ Zod Validation  
@@ -237,124 +215,102 @@ graph TB
 </tr>
 </table>
 
-<br>
-
-<div align="center">
-
-### **📊 24+ Tools Across 7 Categories**
-
-```
-Presentations (4) • Slides (3) • Elements (4) • Text (6) • Properties (2) • Drive (4) • Batch (1)
-```
-
-</div>
-
 ---
-
-<div align="center">
 
 ## 🚀 Installation
 
-### **Prerequisites**
+<div align="center">
+
+### Prerequisites
 
 </div>
+
+<div align="center">
 
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-<br><b>Node.js 18+</b>
+
+**Node.js 18+**
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Cloud-Project-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
-<br><b>GCP Project</b>
+
+**GCP Project**
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/Slides_API-Enabled-FBBC04?style=for-the-badge&logo=google-slides&logoColor=white" alt="Slides API"/>
-<br><b>Slides API</b>
+
+**Slides API**
+
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/OAuth_2.0-Credentials-EA4335?style=for-the-badge&logo=google&logoColor=white" alt="OAuth"/>
-<br><b>OAuth 2.0</b>
+
+**OAuth 2.0**
+
 </td>
 </tr>
 </table>
 
-<br>
-
-<div align="center">
-
-### **Quick Setup**
-
 </div>
 
+### Quick Setup
+
 ```bash
-# 1️⃣ Clone the repository
+# Clone the repository
 git clone https://github.com/yourusername/google-slides-mcp.git
 cd google-slides-mcp
 
-# 2️⃣ Install dependencies
+# Install dependencies
 npm install
 
-# 3️⃣ Build the project
+# Build the project
 npm run build
 
-# 4️⃣ Authenticate (first time only)
+# Authenticate (first time only)
 npm start
 ```
 
 ---
 
-<div align="center">
-
 ## 🔐 Google Cloud Setup
 
-</div>
+<div align="center">
 
 <table>
 <tr>
 <td width="25%" align="center">
 
-### **1️⃣**
-### Create Project
+**1. Create Project**
 
-Go to [Google Cloud Console](https://console.cloud.google.com/)
-
-Create a new project
+[Google Cloud Console](https://console.cloud.google.com/)
 
 </td>
 <td width="25%" align="center">
 
-### **2️⃣**
-### Enable APIs
+**2. Enable APIs**
 
-Enable:
-- Google Slides API
-- Google Drive API
+Slides API + Drive API
 
 </td>
 <td width="25%" align="center">
 
-### **3️⃣**
-### OAuth Consent
+**3. OAuth Consent**
 
-Configure consent screen
-
-Add test users
+Configure & Add Users
 
 </td>
 <td width="25%" align="center">
 
-### **4️⃣**
-### Get Credentials
+**4. Get Credentials**
 
-Create OAuth 2.0 Client
-
-Download as `credentials.json`
+Download `credentials.json`
 
 </td>
 </tr>
 </table>
+
+</div>
 
 <details>
 <summary><b>📖 Detailed Setup Instructions</b></summary>
@@ -397,13 +353,9 @@ Navigate to **APIs & Services > Library** and enable:
 
 ---
 
-<div align="center">
-
 ## ⚡ Quick Start
 
-### **1️⃣ Authenticate**
-
-</div>
+### 1. Authenticate
 
 Run the server for the first time to authenticate:
 
@@ -411,38 +363,24 @@ Run the server for the first time to authenticate:
 npm start
 ```
 
-The server will:
-1. Display an authentication URL
-2. Open it in your browser
-3. Ask you to grant permissions
-4. Save the token to `token.json` automatically
+The server will display an authentication URL, open it in your browser, grant permissions, and save the token automatically.
 
-<br>
-
-<div align="center">
-
-### **2️⃣ Configure Your MCP Client**
-
-</div>
+### 2. Configure Your MCP Client
 
 <table>
 <tr>
 <td width="50%">
 
-#### **Claude Desktop**
-
-Add to `claude_desktop_config.json`:
+**Claude Desktop** (`claude_desktop_config.json`)
 
 ```json
 {
   "mcpServers": {
     "google-slides": {
       "command": "node",
-      "args": [
-        "/absolute/path/to/google-slides-mcp/dist/index.js"
-      ],
+      "args": ["/path/to/dist/index.js"],
       "env": {
-        "GOOGLE_CREDENTIALS": "/absolute/path/to/credentials.json"
+        "GOOGLE_CREDENTIALS": "/path/to/credentials.json"
       }
     }
   }
@@ -452,18 +390,14 @@ Add to `claude_desktop_config.json`:
 </td>
 <td width="50%">
 
-#### **Cline (VS Code)**
-
-Add to MCP settings:
+**Cline (VS Code)** (MCP settings)
 
 ```json
 {
   "mcpServers": {
     "google-slides": {
       "command": "node",
-      "args": [
-        "C:\\path\\to\\google-slides-mcp\\dist\\index.js"
-      ],
+      "args": ["C:\\path\\to\\dist\\index.js"],
       "env": {
         "GOOGLE_CREDENTIALS": "C:\\path\\to\\credentials.json"
       }
@@ -476,61 +410,23 @@ Add to MCP settings:
 </tr>
 </table>
 
-<br>
+### 3. Start Creating!
 
-<div align="center">
+Use natural language prompts with your AI assistant:
 
-### **3️⃣ Start Creating!**
-
-Once configured, use natural language prompts with your AI assistant:
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-```
-💬 "Create a new presentation 
-    titled 'Q4 Sales Report'"
-```
-
-```
-💬 "Add a title slide with 
-    'Welcome to Our Product Launch'"
-```
-
-</td>
-<td width="50%">
-
-```
-💬 "Add a slide with bullet points 
-    about our key features"
-```
-
-```
-💬 "Insert an image from 
-    https://example.com/logo.png"
-```
-
-</td>
-</tr>
-</table>
+- *"Create a new presentation titled 'Q4 Sales Report'"*
+- *"Add a title slide with 'Welcome to Our Product Launch'"*
+- *"Add a slide with bullet points about our key features"*
+- *"Insert an image from https://example.com/logo.png"*
 
 ---
 
-<div align="center">
-
 ## 📚 Documentation
 
-### **Available Tools**
-
-</div>
+### Available Tools
 
 <details open>
 <summary><b>📑 Presentation Management (4 tools)</b></summary>
-
-<br>
 
 | Tool | Description |
 |------|-------------|
@@ -544,8 +440,6 @@ Once configured, use natural language prompts with your AI assistant:
 <details>
 <summary><b>🎯 Slide Operations (3 tools)</b></summary>
 
-<br>
-
 | Tool | Description |
 |------|-------------|
 | `create_slide` | Add a new slide with optional layout |
@@ -556,8 +450,6 @@ Once configured, use natural language prompts with your AI assistant:
 
 <details>
 <summary><b>🎨 Content Elements (4 tools)</b></summary>
-
-<br>
 
 | Tool | Description |
 |------|-------------|
@@ -570,8 +462,6 @@ Once configured, use natural language prompts with your AI assistant:
 
 <details>
 <summary><b>✏️ Text Editing (6 tools)</b></summary>
-
-<br>
 
 | Tool | Description |
 |------|-------------|
@@ -587,8 +477,6 @@ Once configured, use natural language prompts with your AI assistant:
 <details>
 <summary><b>🔧 Properties & Transforms (2 tools)</b></summary>
 
-<br>
-
 | Tool | Description |
 |------|-------------|
 | `update_page_properties` | Change slide background color |
@@ -598,8 +486,6 @@ Once configured, use natural language prompts with your AI assistant:
 
 <details>
 <summary><b>💾 Drive Operations (4 tools)</b></summary>
-
-<br>
 
 | Tool | Description |
 |------|-------------|
@@ -613,33 +499,23 @@ Once configured, use natural language prompts with your AI assistant:
 <details>
 <summary><b>⚡ Batch Operations (1 tool)</b></summary>
 
-<br>
-
 | Tool | Description |
 |------|-------------|
 | `batch_update` | Execute multiple operations atomically |
 
 </details>
 
-<br>
-
 <div align="center">
 
-### **📖 Full API Reference**
-
-For detailed parameter documentation and examples, see **[API_REFERENCE.md](./docs/API_REFERENCE.md)**
+**📖 [Full API Reference](./docs/API_REFERENCE.md)**
 
 </div>
 
 ---
 
-<div align="center">
-
 ## 💡 Examples
 
-### **Example 1: Create a Simple Presentation**
-
-</div>
+### Example 1: Create a Simple Presentation
 
 ```typescript
 // Create presentation
@@ -664,13 +540,7 @@ await add_text_box({
 });
 ```
 
-<br>
-
-<div align="center">
-
-### **Example 2: Create a Data Slide with Table**
-
-</div>
+### Example 2: Create a Data Slide with Table
 
 ```typescript
 // Add blank slide
@@ -687,7 +557,7 @@ const table = await add_table({
   x: 1, y: 1.5, width: 8, height: 3
 });
 
-// Populate table cells (using batch_update for efficiency)
+// Populate table cells
 await batch_update({
   presentationId: presentationId,
   requests: [
@@ -698,50 +568,12 @@ await batch_update({
         text: "Product"
       }
     },
-    {
-      insertText: {
-        objectId: table.elementId,
-        cellLocation: { rowIndex: 0, columnIndex: 1 },
-        text: "Revenue"
-      }
-    }
     // ... more cells
   ]
 });
 ```
 
-<br>
-
-<div align="center">
-
-### **Example 3: Add Image and Style It**
-
-</div>
-
-```typescript
-// Add image
-const image = await add_image({
-  presentationId: presentationId,
-  slideId: slideId,
-  imageUrl: "https://example.com/chart.png",
-  x: 2, y: 2, width: 6, height: 3
-});
-
-// Reposition if needed
-await update_element_transform({
-  presentationId: presentationId,
-  elementId: image.elementId,
-  x: 2.5, y: 2.5, width: 5, height: 2.5
-});
-```
-
-<br>
-
-<div align="center">
-
-### **Example 4: Batch Operations for Complex Slides**
-
-</div>
+### Example 3: Batch Operations
 
 ```typescript
 // Create multiple elements atomically
@@ -786,13 +618,9 @@ await batch_update({
 
 ---
 
-<div align="center">
-
 ## 🛠️ Development
 
-### **Project Structure**
-
-</div>
+### Project Structure
 
 ```
 google-slides-mcp/
@@ -804,46 +632,32 @@ google-slides-mcp/
 │   │   ├── router.ts         # MCP request routing
 │   │   └── types.ts          # MCP type definitions
 │   ├── tools/
-│   │   ├── presentations.ts  # Presentation management tools
+│   │   ├── presentations.ts  # Presentation management
 │   │   ├── slides.ts         # Slide operations
 │   │   ├── elements.ts       # Content elements
-│   │   ├── text.ts           # Text editing and styling
-│   │   ├── properties.ts     # Page properties and transforms
+│   │   ├── text.ts           # Text editing
+│   │   ├── properties.ts     # Properties & transforms
 │   │   ├── batch.ts          # Batch operations
-│   │   └── drive.ts          # Google Drive operations
+│   │   └── drive.ts          # Drive operations
 │   └── utils/
 │       ├── validators.ts     # Input validation
 │       ├── errors.ts         # Error handling
 │       ├── retry.ts          # Retry logic
-│       ├── rate-limiter.ts   # API rate limiting
+│       ├── rate-limiter.ts   # Rate limiting
 │       └── debug-logger.ts   # Debug logging
 ├── dist/                     # Compiled JavaScript
 └── docs/                     # Documentation
 ```
 
-<br>
-
-<div align="center">
-
-### **Scripts**
-
-</div>
+### Scripts
 
 ```bash
-npm run build    # Compile TypeScript to JavaScript
-npm run dev      # Run in development mode with tsx
-npm start        # Run the compiled server
+npm run build    # Compile TypeScript
+npm run dev      # Development mode
+npm start        # Run server
 ```
 
-<br>
-
-<div align="center">
-
-### **Environment Variables**
-
-</div>
-
-Create a `.env` file for optional configuration:
+### Environment Variables
 
 ```env
 GOOGLE_CREDENTIALS=./credentials.json
@@ -852,32 +666,28 @@ CALLMISSED=true  # Enable debug logging
 
 ---
 
-<div align="center">
-
 ## 🔒 Security
-
-</div>
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="50%">
 
-### ⚠️ **Important Security Notes**
+### Important Notes
 
-✅ **Never commit** `credentials.json` or `token.json`  
+✅ Never commit `credentials.json` or `token.json`  
 ✅ Both files are in `.gitignore` by default  
-✅ `credentials.json` contains OAuth client secrets  
-✅ `token.json` contains access and refresh tokens  
+✅ `credentials.json` contains OAuth secrets  
+✅ `token.json` contains access tokens  
 ✅ Keep these files secure and private
 
 </td>
-<td width="50%" align="center">
+<td width="50%">
 
-### 🔄 **Token Management**
+### Token Management
 
-Tokens are automatically refreshed when expired
+Tokens are automatically refreshed when expired.
 
-If authentication fails, delete `token.json` and re-authenticate:
+If authentication fails:
 
 ```bash
 rm token.json
@@ -890,11 +700,11 @@ npm start
 
 ---
 
-<div align="center">
-
 ## 📊 Rate Limits
 
-The server includes built-in rate limiting to respect Google API quotas:
+<div align="center">
+
+The server includes built-in rate limiting to respect Google API quotas
 
 </div>
 
@@ -902,12 +712,6 @@ The server includes built-in rate limiting to respect Google API quotas:
 |-----|-------|----------|
 | **Google Slides API** | 60 requests/minute | Automatic retry with exponential backoff |
 | **Google Drive API** | 100 requests/minute | Automatic retry with exponential backoff |
-
-<div align="center">
-
-The server automatically handles rate limit errors and retries failed requests.
-
-</div>
 
 ---
 
@@ -981,25 +785,17 @@ The server automatically handles rate limit errors and retries failed requests.
 
 ---
 
-<div align="center">
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
 
-</div>
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit your changes** (`git commit -m 'Add amazing feature'`)
-4. **Push to the branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request**
-
-<div align="center">
-
-### **Development Guidelines**
-
-</div>
+### Development Guidelines
 
 - Follow existing code style and TypeScript conventions
 - Add tests for new features
@@ -1009,11 +805,9 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-<div align="center">
-
 ## 🙏 Acknowledgments
 
-</div>
+<div align="center">
 
 <table>
 <tr>
@@ -1041,26 +835,26 @@ Contributions are welcome! Here's how you can help:
 </tr>
 </table>
 
----
+</div>
 
-<div align="center">
+---
 
 ## 📞 Support
 
-</div>
+<div align="center">
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### 🐛 **Issues**
+### 🐛 Issues
 
 [Report a Bug](https://github.com/yourusername/google-slides-mcp/issues)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
-### ⭐ **Star Us**
+### ⭐ Star Us
 
 If you find this useful!
 
@@ -1068,20 +862,16 @@ If you find this useful!
 </tr>
 </table>
 
+</div>
+
 ---
 
 <div align="center">
 
-<br>
-
 **Made with ❤️ for the MCP community**
-
-<br>
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/google-slides-mcp?style=social)](https://github.com/yourusername/google-slides-mcp/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/google-slides-mcp?style=social)](https://github.com/yourusername/google-slides-mcp/network/members)
-
-<br>
 
 [⬆ Back to Top](#-google-slides-mcp-server)
 
