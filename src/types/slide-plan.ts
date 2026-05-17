@@ -11,6 +11,20 @@ export type DeckType = z.infer<typeof DeckTypeEnum>;
 export const SlideStatusEnum = z.enum(["planned", "approved", "executed", "modified"]);
 export type SlideStatus = z.infer<typeof SlideStatusEnum>;
 
+export const SlideExecutionPlanSchema = z.object({
+  slideId: z.string(),
+  toolCalls: z.array(
+    z.object({
+      tool: z.string(),
+      params: z.record(z.unknown()),
+      reason: z.string(),
+    })
+  ),
+  imagesUsed: z.array(z.string()).optional(),
+  creativeRationale: z.string(),
+});
+export type SlideExecutionPlan = z.infer<typeof SlideExecutionPlanSchema>;
+
 export const ContentBlockSchema = z.discriminatedUnion("kind", [
   z.object({ kind: z.literal("text"), text: z.string() }),
   z.object({ kind: z.literal("bullets"), items: z.array(z.string()) }),

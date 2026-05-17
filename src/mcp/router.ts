@@ -78,11 +78,31 @@ export class MCPRouter {
     this.registerTool({
       name: "generate_image",
       description: `Generate an AI image from a text prompt and return a public URL ready for add_image.
-• **Use when**: You need custom images (diagrams, flowcharts, illustrations) for a slide
-• **MANDATORY**: Always use size="512x512". Larger sizes will timeout and fail with "Connection closed".
-• **Process**: Calls CallMissed image API → uploads to Google Drive → returns public URL
-• **Takes ~4-5 seconds**: If you get a timeout, retry the exact same call once
-• **After calling**: Use the returned URL with add_image tool to place on slide`,
+
+**CRITICAL: This tool must be used BEFORE slide creation for any planned image.**
+
+**When to use:**
+• ANY time the deck plan contains a content block with kind: "generate_image" — this is MANDATORY
+• Custom diagrams explaining architecture or system design
+• Flowcharts showing process or workflow  
+• Illustrations for problem/solution slides
+• Background images for title or section divider slides
+• Icon grids or visual metaphors
+• Before/after comparison visuals
+
+**Execution order:** Call generate_image BEFORE create_slide. The returned publicUrl must be captured and used in the subsequent add_image call for that slide.
+
+**MANDATORY**: Always use size="512x512". Larger sizes will timeout and fail with "Connection closed".
+**Process**: Calls CallMissed image API → uploads to Google Drive → returns public URL
+**Takes ~4-5 seconds**: If you get a timeout, retry the exact same call once
+**After calling**: Use the returned URL with add_image tool to place on slide
+
+**Prompt best practices:**
+• Always include the deck's color palette hex codes in the prompt for visual cohesion
+• Specify "flat design" and "no gradients" for professional decks
+• Include background color to prevent clashing with slide backgrounds
+• Specify "no text in image" — add text separately via add_text_box
+• Mention aspect ratio (16:9) even though API uses fixed sizes`,
       inputSchema: {
         type: "object",
         properties: {

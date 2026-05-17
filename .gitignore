@@ -17,14 +17,19 @@ build/
 credentials.json
 token.json
 
-# Sisyphus working directories
-# These contain personal working files and test outputs
-# Keep .sisyphus/docs/ for API documentation (useful for users)
-.sisyphus/drafts/
-.sisyphus/evidence/
-.sisyphus/notepads/
-.sisyphus/run-continuation/
-.sisyphus/slide-plans/
+# Development and planning files (not for public repo)
+.sisyphus/
+.opencode/
+skills/
+scripts/
+WHAT_TO_COMMIT.md
+READY_TO_PUSH.md
+PUBLISH_CHECKLIST.md
+CONTRIBUTING.md
+RESUME_BULLETS.md
+GITHUB_READY.md
+LICENSE
+mcp-debug.log
 
 # IDE
 .vscode/
